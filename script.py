@@ -9,5 +9,5 @@ with open('experiment.csv', 'rt') as csvfile:
   print(dict)
   print(json.dumps(dict, ensure_ascii=False))
 
-with open('test.json', 'w') as outfile:
+with open('AirlinecodeToAirlineID.json', 'w') as outfile:
     json.dump(dict, outfile)
